@@ -1,0 +1,47 @@
+.BackBtn2 {
+  border: 3rem;
+  background-color: transparent;
+}
+
+.BackBtn2 img {
+  width: 6vw;
+  margin-left: 2.5rem;
+}
+
+.BackBtn2:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.Btn2-Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  padding-top: 7vh;
+}
+.placeholder2 {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.backArrow2 {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.menu-btn:hover {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 567px) and (max-width: 991px) {
+  .BackBtn2 img {
+    width: 4vw;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1600px) {
+  .BackBtn2 img {
+    width: 3vw;
+  }
+}
